@@ -49,5 +49,6 @@ class CoolingSystem:
 if __name__ == '__main__':
     thermal_paste = False
     system_cooling = True
+    print('Start')
     new_C = CoolingSystem(thermal_paste, system_cooling)
     print('\nTarget function', new_C.install_cooling_system())
